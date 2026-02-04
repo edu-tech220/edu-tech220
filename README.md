@@ -30,7 +30,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="60px" alt="NodeJS">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/dotnet/dotnet-original.svg" width="60px" alt=".NET">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="60px" alt=".NET">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain-wordmark.svg" width="60px" alt="Bootstrap">
 &nbsp;&nbsp;&nbsp;&nbsp;
