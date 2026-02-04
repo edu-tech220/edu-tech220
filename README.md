@@ -26,7 +26,7 @@
   </br>
 
 <h3>Frameworks & Tools</h3>
-<img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/laravel/laravel-plain-wordmark.svg" width="60px" alt="Laravel">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="60px" alt="Laravel">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="60px" alt="NodeJS">
 &nbsp;&nbsp;&nbsp;&nbsp;
