@@ -1,123 +1,62 @@
-<!-- HEADER -->
-<div align="center" width="100">
-  <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=250&section=header&text=Eduardo%20Ramirez&desc=Backend%20Developer%20%C2%B7%20C%23%20%2F%20.NET&descAlignY=62&fontSize=40&type=waving&fontColor=fefefe&animation=fadeIn"
-  alt="header"/>
-</div>
-
-<!-- ABOUT -->
 <div align="center">
-  <h2>👋 Hola, soy Eduardo</h2>
-  <p>
-    Desarrollador <b>Backend</b> enfocado en el ecosistema <b>C# / .NET</b>.<br/>
-    Construyo APIs REST con <b>ASP.NET Core</b>, <b>EF Core</b> y <b>SQL Server</b>,
-    aplicando <b>Clean Architecture</b>, <b>DDD</b> y <b>CQRS</b>, con testing, Docker, CI/CD y despliegue en <b>Azure</b>.
-  </p>
+  <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=200&section=header&text=Eduardo%20Ramirez&desc=Backend%20Developer%20%C2%B7%20C%23%20%2F%20.NET&descAlignY=62&fontSize=40&type=waving&fontColor=fefefe&animation=fadeIn" alt="Eduardo Ramirez · Backend Developer · C# / .NET"/>
 </div>
 
-</br>
+## 👋 About me
 
-<!-- STACK -->
-<div align="center" width="100">
-  <h1>Stack</h1>
+Backend developer focused on **C# and .NET**. I build REST APIs with **ASP.NET Core**,
+**Entity Framework Core** and **SQL Server**, and real-time features with **SignalR**.
+I care about business rules living in the right place, consistent data under concurrency,
+and shipping with automated tests, Docker and CI.
 
-  <!-- Languages & Frameworks -->
-  </br>
-  <h3>Lenguaje y Frameworks</h3>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="60px" alt="C#">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="60px" alt=".NET / ASP.NET Core">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="60px" alt="Swagger / OpenAPI">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg" width="60px" alt="gRPC">
-  </br></br>
-  <img src="https://img.shields.io/badge/ASP.NET_Core_Web_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core Web API">
-  <img src="https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework Core">
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
-  <img src="https://img.shields.io/badge/MediatR-5C2D91?style=for-the-badge" alt="MediatR">
-  <img src="https://img.shields.io/badge/FluentValidation-2C3E50?style=for-the-badge" alt="FluentValidation">
+Currently looking for **Backend Developer (.NET)** opportunities.
 
-  <!-- Databases & Cache -->
-  </br>
-  <h3>Bases de datos y caché</h3>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="60px" alt="SQL Server">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="60px" alt="Redis">
+## 🚀 Projects
 
-  <!-- Architecture -->
-  </br>
-  <h3>Arquitectura</h3>
-  <img src="https://img.shields.io/badge/Clean_Architecture-0860d0?style=for-the-badge" alt="Clean Architecture">
-  <img src="https://img.shields.io/badge/DDD-0860d0?style=for-the-badge" alt="DDD">
-  <img src="https://img.shields.io/badge/CQRS-0860d0?style=for-the-badge" alt="CQRS">
-  <img src="https://img.shields.io/badge/SOLID-0860d0?style=for-the-badge" alt="SOLID">
-  <img src="https://img.shields.io/badge/Microservicios-0860d0?style=for-the-badge" alt="Microservicios">
+### ⚡ Live Auction — real-time auction platform
+[API](https://github.com/edu-tech220/live-auction) · [Web](https://github.com/edu-tech220/live-auction-web)
 
-  <!-- Testing -->
-  </br>
-  <h3>Testing</h3>
-  <img src="https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge" alt="xUnit">
-  <img src="https://img.shields.io/badge/Moq_/_NSubstitute-512BD4?style=for-the-badge" alt="Moq / NSubstitute">
-  <img src="https://img.shields.io/badge/Testcontainers-291A3F?style=for-the-badge" alt="Testcontainers">
+Bids are validated on the server and broadcast instantly to everyone watching.
 
-  <!-- DevOps & Cloud -->
-  </br>
-  <h3>DevOps y Cloud</h3>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="60px" alt="Docker">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="60px" alt="GitHub Actions">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="60px" alt="Azure">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" width="60px" alt="RabbitMQ">
+- Optimistic concurrency with `rowversion` + retries, verified with 20 simultaneous bidders.
+- SignalR hub with one group per auction, caller-only rejections and resync on reconnect.
+- Idempotent auction closing in a `BackgroundService` that survives restarts.
+- JWT, PBKDF2 password hashing, rate limiting; 71 backend tests and 32 frontend tests; Docker Compose and CI.
 
-  <!-- Observability & Resilience -->
-  </br>
-  <h3>Observabilidad y resiliencia</h3>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opentelemetry/opentelemetry-original.svg" width="60px" alt="OpenTelemetry">
-  </br></br>
-  <img src="https://img.shields.io/badge/Serilog-1E1E1E?style=for-the-badge" alt="Serilog">
-  <img src="https://img.shields.io/badge/Seq-1E1E1E?style=for-the-badge" alt="Seq">
-  <img src="https://img.shields.io/badge/Application_Insights-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Application Insights">
-  <img src="https://img.shields.io/badge/Polly-1E1E1E?style=for-the-badge" alt="Polly">
-  <img src="https://img.shields.io/badge/YARP_Gateway-512BD4?style=for-the-badge" alt="YARP">
+`ASP.NET Core` `SignalR` `EF Core` `SQL Server` `xUnit` `Docker` `GitHub Actions` `React` `TypeScript`
 
-  <!-- Tools -->
-  </br>
-  <h3>Herramientas</h3>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" width="60px" alt="Visual Studio">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="60px" alt="VS Code">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="60px" alt="Git">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="60px" alt="Postman">
-</div>
+### ✅ TaskFlow — habit tracking API
+[API](https://github.com/edu-tech220/TaskFlow) · [Web](https://github.com/edu-tech220/TaskFlow.Web)
 
-</br>
+Users schedule recurring activities, record daily completion and plan rest days.
 
-<!-- CURRENT PROJECT -->
+- Versioned schedules: changing a routine never rewrites history.
+- Monthly calendar computed with a fixed number of SQL queries (no N+1).
+- Per-user data isolation, JWT with an admin role, ProblemDetails errors.
+- 51 tests against a real SQL Server in CI; ASP.NET Core MVC client with a cookie-based session.
+
+`ASP.NET Core` `EF Core` `SQL Server` `LINQ` `JWT` `xUnit` `ASP.NET Core MVC` `GitHub Actions`
+
+## 🛠️ Tech I use in my projects
+
+| Area | Technologies |
+|---|---|
+| Languages | C#, SQL, TypeScript |
+| Backend | .NET 10, ASP.NET Core Web API, SignalR, ASP.NET Core MVC |
+| Data | SQL Server, Entity Framework Core (Code First, migrations, Fluent API), LINQ |
+| Security | JWT Bearer, role-based authorization, password hashing (PBKDF2), rate limiting, CORS |
+| Testing | xUnit, WebApplicationFactory (integration tests against SQL Server), Vitest, Postman/Newman |
+| DevOps | Docker, Docker Compose, GitHub Actions |
+| API docs | OpenAPI, Swagger UI |
+| Tools | Visual Studio, VS Code, Git, Postman |
+
+## 📚 Learning next
+
+- **Azure** fundamentals — preparing for **AZ-900**.
+- **Redis** as a SignalR backplane to scale real-time features across instances.
+- **Observability** with structured logging (Serilog) and OpenTelemetry.
+- **Testcontainers** for disposable databases in integration tests.
+
 <div align="center">
-  <h2>🚧 En construcción: TaskFlow</h2>
-  <p>
-    API de gestión de proyectos y tareas que evoluciona de una app de consola a un sistema en producción:<br/>
-    <b>Web API REST → EF Core + SQL Server → JWT → Clean Architecture → DDD + CQRS → Tests → Docker → CI/CD → Azure → Microservicios</b>
-  </p>
-</div>
-
-</br>
-
-<!-- CERTS -->
-<div align="center">
-  <h3>🎯 Próxima certificación</h3>
-  <img src="https://img.shields.io/badge/AZ--900-Azure_Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-900">
-</div>
-
-</br>
-</br>
-
-<!-- FOOTER -->
-<div align="center" width="100">
-  <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=100&section=footer&fontSize=30&type=waving&fontColor=fefefe"
-  alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?color=0:1408d0,50:0860d0,100:08c4d0&height=100&section=footer&type=waving" alt=""/>
 </div>
